@@ -1,0 +1,8 @@
+DROP TABLE persona if EXISTS;
+
+CREATE TABLE persona(
+id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+nome VARCHAR(20),
+sobrenome VARCHAR(20),
+telefone VARCHAR(20)
+);
